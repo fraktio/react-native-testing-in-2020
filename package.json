@@ -1,0 +1,66 @@
+{
+  "name": "OurWorkplace",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/bottom-tabs": "^5.9.0",
+    "@react-navigation/native": "^5.7.4",
+    "@react-navigation/stack": "^5.9.1",
+    "fp-ts": "^2.8.3",
+    "io-ts": "^2.2.10",
+    "luxon": "^1.25.0",
+    "ramda": "^0.27.1",
+    "react": "16.13.1",
+    "react-native": "0.63.2",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-reanimated": "^1.13.0",
+    "react-native-safe-area-context": "^3.1.8",
+    "react-native-screens": "^2.11.0",
+    "react-native-vector-icons": "^7.1.0",
+    "zustand": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "@testing-library/react-native": "^7.0.2",
+    "@types/jest": "^25.2.3",
+    "@types/luxon": "^1.25.0",
+    "@types/ramda": "^0.27.18",
+    "@types/react-native": "^0.63.2",
+    "@types/react-native-vector-icons": "^6.4.6",
+    "@types/react-test-renderer": "^16.9.2",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "appium": "^1.18.2",
+    "appium-controller": "^1.1.6",
+    "babel-jest": "^25.1.0",
+    "detox": "^17.5.7",
+    "eslint": "^6.5.1",
+    "jest": "26.4.2",
+    "jest-circus": "^26.4.2",
+    "jest-cli": "26.4.2",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1",
+    "typescript": "^3.8.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
